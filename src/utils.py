@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-HIGH_SCORE_FILE = Path(__file__).resolve().parent / "highscore.json"
+HIGH_SCORE_FILE = Path(__file__).resolve().parent / "highscore.txt"
 
 def load_highscore():
     if HIGH_SCORE_FILE.exists():
